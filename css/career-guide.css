@@ -1,0 +1,26 @@
+body {
+    font-family: 'Ubuntu', 'Candara', 'Arial';
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.page-header {
+    background-color: rgba(158, 158, 158, 1);
+}
+
+/* Menu */
+#pop-up .active {
+    background-color: rgba(158, 158, 158,0.2);
+}
+
+/* Main */
+.main {
+    padding-top: 64px;
+}
+
+.sidebar img {
+    position: fixed;
+    right: 0;
+    width: 30%;
+}

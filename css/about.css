@@ -1,0 +1,72 @@
+body {
+    font-family: 'Ubuntu', 'Candara', 'Arial';
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.page-header {
+    background-color: rgba(158, 158, 158, 1);
+}
+
+/* Menu */
+#pop-up .active {
+    background-color: rgba(158, 158, 158,0.2);
+}
+
+/* Main */
+.main {
+    margin-top: 64px;
+    margin-bottom: 64px;
+    text-align: center;
+}
+
+.container {
+    padding: 10px 10%;
+}
+
+.main h1 {
+    padding-top: 15px;
+    font-size: 28px;
+    text-align: center;
+}
+
+.main div {
+    text-align: left;
+}
+
+.main p {
+    text-align: justify;
+}
+
+/* Gallery */
+
+
+.gallery img {
+    width: 100%;
+    margin: 10px 10px;
+    border: 0.1px solid rgba(0,0,0,0.15);
+    box-shadow: 1px 2px 5px rgba(0,0,0,0.3);
+    transition: all 0.3s ease-in-out;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+    box-shadow: 1px 3px 15px rgba(0,0,0,0.5);
+}
+
+/* Footer */
+.footer {
+    border-top: 1px solid rgba(0,0,0,0.3);
+    background: -moz-linear-gradient(top, rgba(0,0,0,0.4), rgba(0,0,0,0));
+    background: -ms-linear-gradient(top, rgba(0,0,0,0.4), rgba(0,0,0,0));
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0.4), rgba(0,0,0,0));
+    background: linear-gradient(top, rgba(0,0,0,0.4), rgba(0,0,0,0));
+}
+
+.footer .row {
+    text-align: center;
+    width: 100%;
+    font-weight: 400;
+}

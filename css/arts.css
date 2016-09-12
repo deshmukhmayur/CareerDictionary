@@ -1,0 +1,99 @@
+body {
+    font-family: 'Ubuntu', 'Candara', 'Arial';
+    margin: 0px;
+    padding: 0px;
+    background: url('../media/arts/background_1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-shadow: 0px 0px 5px rgba(0,0,0,0.4);
+}
+
+/* Header */
+.page-header {
+    background-color: rgba(186, 215, 26, 1);
+}
+
+/* Menu */
+#pop-up .active {
+    background-color: rgba(139,195,74,0.2);
+}
+
+/* Main */
+.main {
+    padding-top: 64px;
+}
+
+.container {
+    clear: both;
+    text-align: center;
+    width: 100%;
+    padding: 100px;
+    padding-top: 50px;
+}
+
+.table .row {
+    padding: 5px;
+}
+
+.table .col-md-3 {
+    padding: 15px;
+    padding-bottom: 35px;
+}
+
+.table .col-md-3:hover {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 5px rgba(139, 195, 74, 0.5);
+    background-color: rgba(255, 255, 255, 0.7);
+    font-weight: 700;
+    text-shadow: 0px 0px 15px rgba(0,0,0,1);
+}
+
+.table .col-md-3 img {
+    width: 100%;
+}
+
+.table .col-md-3 h5 {
+    display: block;
+    width: 100%;
+    height: 35px;
+    position: absolute;
+    bottom: 0; left: 0;
+    margin: 0px;
+    padding: 10px;
+    z-index: 1000;
+}
+
+.table .row a{
+    color: #000;
+    text-decoration: none;
+}
+
+.hid {
+    position: absolute;
+    left: 0; top: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    margin-bottom: 35px;
+    font-weight: 500;
+    background-color: rgba(255,255,255, 0.9);
+    color: rgb(87, 128, 43);
+    text-align: justify;
+    overflow-y: auto;
+    overflow-x: hidden;
+    z-index: 500;
+    
+    transform: rotateX(90deg);
+    perspective: 2000px;
+    perspective-origin: 50% 0%;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.hid p {
+    margin-bottom: 35px;
+    text-shadow: none;
+}
